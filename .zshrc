@@ -84,7 +84,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH=$PATH:/usr/sbin
 
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 export GPG_TTY=$(tty)
 gpgconf --launch gpg-agent
